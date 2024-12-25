@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Додати страву</title>
+</head>
+<body>
+    <h1>Додати нову страву</h1>
+    <form method="POST">
+        <label>Назва:</label><br>
+        <input type="text" name="name" required><br>
+        <label>Опис:</label><br>
+        <textarea name="description" required></textarea><br>
+        <label>Ціна:</label><br>
+        <input type="number" name="price" step="0.01" required><br>
+        <button type="submit">Додати</button>
+    </form>
+</body>
+</html>
